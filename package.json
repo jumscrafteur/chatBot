@@ -2,9 +2,9 @@
   "name": "chat-bot",
   "version": "1.0.0",
   "description": "premier chat bot de jumscrafteur !",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon main.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jumscrafteur/chatBot/issues"
   },
-  "homepage": "https://github.com/jumscrafteur/chatBot#readme"
+  "homepage": "https://github.com/jumscrafteur/chatBot#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
